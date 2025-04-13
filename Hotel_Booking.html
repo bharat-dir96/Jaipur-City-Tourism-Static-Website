@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jaipur - Home</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/Jaipur logo.jpg" alt="Jaipur logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Heritage.html">Heritage</a></li>
+                <li><a href="Hotel_Booking.html">Hotel Booking</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="booking-form">
+        <h2>Hotel Booking</h2>
+        <form action="#">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+    
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required><br><br>
+    
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required><br><br>
+    
+            <label for="rooms">Number of Rooms:</label>
+            <input type="number" id="rooms" name="rooms"min="1" required><br><br>
+    
+            <label for="special-requests">Special Requests:</label>
+            <textarea name="special-requests" id="special-requests" rows="4"></textarea><br><br>
+    
+            <input type="submit" value="Book Rooms">
+        </form>
+    </section>
+
+
+</body>
+</html>
